@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Canvas Game</title>
+<style type="text/css">
+canvas {
+  background: lightgreen;
+  border: 2px solid #333;
+}
+
+h3 {
+  color: #454545;
+  font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+  <h3>Click in the box to start, <br>Click in smaller moving rectangle as much as you can before you run out of time</h3>
+    <h3>
+      Result:<span id="result"></span><br>
+      Time:<span id="time"></span>
+    </h3>
+    <canvas id="canvas" height="400px" width="400px"></canvas>
+
+  <button onclick="myFunction()">Reload page</button>
+
+  <script src="simplegame.js"></script>
+</body>
+</html>
